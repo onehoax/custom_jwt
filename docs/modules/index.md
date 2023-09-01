@@ -41,7 +41,7 @@ Options for signing the token
 
 #### Defined in
 
-index.ts:17
+[index.ts:16](https://github.com/onehoax/custom_jwt/blob/025ca7a/src/index.ts#L16)
 
 ## Functions
 
@@ -65,7 +65,7 @@ Decodes a JWT and returns a jwt.JWT representing the contents of the token
 
 #### Defined in
 
-index.ts:78
+[index.ts:77](https://github.com/onehoax/custom_jwt/blob/025ca7a/src/index.ts#L77)
 
 ___
 
@@ -94,7 +94,7 @@ an error if jwt.verify fails
 
 #### Defined in
 
-index.ts:32
+[index.ts:31](https://github.com/onehoax/custom_jwt/blob/025ca7a/src/index.ts#L31)
 
 ___
 
@@ -123,4 +123,4 @@ an error if jwt.verify fails
 
 #### Defined in
 
-index.ts:56
+[index.ts:55](https://github.com/onehoax/custom_jwt/blob/025ca7a/src/index.ts#L55)

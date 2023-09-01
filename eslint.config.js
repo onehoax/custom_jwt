@@ -29,7 +29,7 @@ export default [
             "linebreak-style": ["error", "unix"],
             "comma-dangle": ["error", "never"]
         },
-        ignores: ["node_modules/**", "dist/**", "docs/**"],
+        ignores: ["node_modules/**"],
         languageOptions: {
             globals: {
                 ...globals.browser,
@@ -51,7 +51,7 @@ export default [
             "linebreak-style": ["error", "unix"],
             "comma-dangle": ["error", "never"]
         },
-        ignores: ["node_modules/**", "dist/**", "docs/**"],
+        ignores: ["node_modules/**"],
         plugins: {
             tsPlugin: tsPlugin
         },
