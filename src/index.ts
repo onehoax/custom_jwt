@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as fs from "node:fs";
 import jwt from "jsonwebtoken";
 
