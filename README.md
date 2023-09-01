@@ -33,3 +33,9 @@ for. This clientID is usually the `audience` in the `Options`.
 E.g.: If a JWT was issued for audience — “http://abc.in”, But the client app tries to use the
 JWT from “http://xyz.in”, then the server should throw 403 Forbidden error as the audience
 identification fails to match.
+
+## Usage
+
+-   Install: `npm i @onehoax/jwt`
+-   This is an ES module; therefore use `"type": "module"` in your `package.json`
+-   Place the private-public key pair in the root directory of the project

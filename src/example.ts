@@ -25,7 +25,6 @@ const token: string = customJwt.sign(payload, options);
 console.log("JWT token:\n", token);
 
 // ==================== JWT Verify ====================
-
 const result = customJwt.verify(token, options);
 console.log("JWT verification result:\n", result);
 
