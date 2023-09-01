@@ -1,0 +1,43 @@
+{
+    "name": "@onehoax/jwt",
+    "version": "1.0.0",
+    "description": "Custom JWT implementation",
+    "type": "module",
+    "main": "src/index.ts",
+    "prettier": {
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "printWidth": 120
+    },
+    "scripts": {
+        "start": "tsc && node dist/example.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon --watch src --ext ts --exec ts-node-esm src/index.ts",
+        "tsc": "tsc",
+        "lint": "eslint src/",
+        "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json|md)\"",
+        "doc": "typedoc"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Andres Osorio <andres.osoriogr@gmail.com>",
+    "license": "BSD-4-Clause",
+    "dependencies": {
+        "@eslint/eslintrc": "^2.1.2",
+        "@eslint/js": "^8.48.0",
+        "@types/jsonwebtoken": "^9.0.2",
+        "@types/node": "^20.5.7",
+        "@typescript-eslint/eslint-plugin": "^6.5.0",
+        "@typescript-eslint/parser": "^6.5.0",
+        "eslint": "^8.48.0",
+        "eslint-config-prettier": "^9.0.0",
+        "jsonwebtoken": "^9.0.2",
+        "prettier": "^3.0.3",
+        "ts-node": "^10.9.1",
+        "typedoc": "^0.25.0",
+        "typedoc-plugin-markdown": "^3.16.0",
+        "typescript": "^5.2.2"
+    }
+}
